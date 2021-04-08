@@ -3,7 +3,7 @@
 
 I refuctored my Java solution for the Guitar Shack exercise into a Big Ball of Mud with hardwired external dependencies that make unit testing currently impossible.
 
-There are, of course, no automated tests. But there's a Program.main() method you can with 2 arguments to process a sale: product ID (int) and quantity sold (int).
+There are, of course, no automated tests. But there's a Program.main() method you can run with 2 arguments to process a sale: product ID (int) and quantity sold (int).
 
 The program will check stock and sales data from two AWS web services to decide if an alert needs to be sent to reorder new stock.
 
